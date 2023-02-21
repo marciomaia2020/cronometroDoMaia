@@ -1,0 +1,63 @@
+body{
+    max-width: auto;
+    margin: 0 auto;
+    color: rgb(58, 107, 153);
+    background: linear-gradient(to bottom, #000000 0%, #ffffff 70%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    padding: 50px;
+}
+#watch{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color:rgb(10, 10, 10);
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color:greenyellow; 
+    text-align: center;
+}
+h1{
+    color: white;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color:greenyellow; 
+    text-align: center;
+}
+div{
+    text-align: center;
+}
+button{
+    height: 2.2em;
+    width: 5.5em;
+    border: none;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+.start-btn{
+    background-color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.pause-btn{
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+.stop-btn{
+    background-color: red;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 100px;
+    text-align: right;
+}
